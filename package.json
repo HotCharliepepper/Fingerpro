@@ -1,0 +1,10 @@
+{
+  "name": "fingerpro-mashcore-r2",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check src/main.js && node --check src/motion.js && node --check src/content.js && node --check public/vendor/gsap-bundle.js && node --check scripts/build.mjs && node --check scripts/dev-server.mjs"
+  }
+}
